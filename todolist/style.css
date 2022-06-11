@@ -1,0 +1,94 @@
+#page-header h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+}
+
+#todo-form button{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    width: 175px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: rgb(165, 47, 37);
+    border-style: solid;
+    border: transparent;
+}
+
+#todo-form #new-todo {
+    width: 500px;
+    height: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#list-things-todo h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#list-things-todo ul {
+    list-style-type: none;
+}
+
+#list-things-todo li {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#list-things-todo li:last-of-type {
+    margin-bottom: 0;
+}
+
+#list-done-todo h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.pending {
+    background: rgb(109, 146, 233);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 15px;
+    margin: 25px 0;
+    padding: 15px;
+}
+
+.pending p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pending button, .done button {
+    border-radius: 10px;
+    border-style: solid;
+    border: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.done {
+    background: rgb(222, 107, 148);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    border-radius: 15px;
+    margin: 25px 0;
+    padding: 15px;
+}
+
